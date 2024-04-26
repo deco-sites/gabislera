@@ -1592,8 +1592,8 @@
       "freeShippingObjectiveQuantity": 600
     },
     "logo": {
-      "alt": "Glamour logo by deco",
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8112/c1f1e732-e9de-44cc-b7cb-d7330e1c00ad",
+      "alt": "Logo",
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8112/2976eece-efda-45c7-ae68-aa5e8410d560",
       "width": 100,
       "height": 16
     },
@@ -2709,7 +2709,8 @@
       {
         "url": "/linktree",
         "name": "Link Tree",
-        "@type": "SiteNavigationElement"
+        "@type": "SiteNavigationElement",
+        "children": []
       }
     ],
     "__resolveType": "commerce/loaders/navbar.ts"
@@ -3143,6 +3144,104 @@
         "__resolveType": "Header - 01"
       },
       {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/Carousel.tsx",
+              "dots": false,
+              "arrows": true,
+              "images": [
+                {
+                  "alt": "Feminino",
+                  "action": {
+                    "href": "/feminino",
+                    "label": "Explore collection",
+                    "title": "VTEX Store",
+                    "subTitle": "Visit our site and start building now:"
+                  },
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                },
+                {
+                  "alt": "Masculino",
+                  "action": {
+                    "href": "/masculino",
+                    "label": "Explore collection",
+                    "title": "VTEX Store",
+                    "subTitle": "Visit our site and start building now:"
+                  },
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                },
+                {
+                  "alt": "Vestidos",
+                  "action": {
+                    "href": "/feminino/roupas/vestidos",
+                    "label": "Explore collection",
+                    "title": "VTEX Store",
+                    "subTitle": "Visit our site and start building now:"
+                  },
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                }
+              ],
+              "preload": true
+            },
+            "rule": {
+              "__resolveType": "Teste AB"
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/Carousel.tsx",
+              "dots": true,
+              "arrows": true,
+              "images": [
+                {
+                  "alt": "Feminino",
+                  "action": {
+                    "href": "/feminino",
+                    "label": "Explore collection",
+                    "title": "VTEX Store",
+                    "subTitle": "Visit our site and start building now:"
+                  },
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                },
+                {
+                  "alt": "Masculino",
+                  "action": {
+                    "href": "/masculino",
+                    "label": "Explore collection",
+                    "title": "VTEX Store",
+                    "subTitle": "Visit our site and start building now:"
+                  },
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                },
+                {
+                  "alt": "Vestidos",
+                  "action": {
+                    "href": "/feminino/roupas/vestidos",
+                    "label": "Explore collection",
+                    "title": "VTEX Store",
+                    "subTitle": "Visit our site and start building now:"
+                  },
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                }
+              ],
+              "preload": true,
+              "interval": 2
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
+      },
+      {
         "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
         "content": [
           {
@@ -3248,103 +3347,6 @@
           },
           "__resolveType": "site/sections/Product/ProductShelf.tsx"
         }
-      },
-      {
-        "__resolveType": "website/flags/multivariate/section.ts",
-        "variants": [
-          {
-            "value": {
-              "__resolveType": "site/sections/Images/Carousel.tsx",
-              "dots": false,
-              "arrows": true,
-              "images": [
-                {
-                  "alt": "Feminino",
-                  "action": {
-                    "href": "/feminino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Masculino",
-                  "action": {
-                    "href": "/masculino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Vestidos",
-                  "action": {
-                    "href": "/feminino/roupas/vestidos",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                }
-              ],
-              "preload": true
-            },
-            "rule": {
-              "__resolveType": "Teste AB"
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/Images/Carousel.tsx",
-              "dots": false,
-              "arrows": true,
-              "images": [
-                {
-                  "alt": "Feminino",
-                  "action": {
-                    "href": "/feminino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Masculino",
-                  "action": {
-                    "href": "/masculino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Vestidos",
-                  "action": {
-                    "href": "/feminino/roupas/vestidos",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                }
-              ],
-              "preload": true
-            },
-            "rule": {
-              "__resolveType": "website/matchers/always.ts"
-            }
-          }
-        ]
       },
       {
         "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
