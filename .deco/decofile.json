@@ -3340,6 +3340,13 @@
       },
       {
         "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
+        "layout": {
+          "headerfontSize": "Large",
+          "headerAlignment": "center"
+        },
+        "cardLayout": {
+          "__resolveType": "Product Card Layout - 01"
+        },
         "tabs": [
           {
             "title": "Woman",
@@ -3364,14 +3371,7 @@
             }
           }
         ],
-        "title": "Best Sellers",
-        "layout": {
-          "headerfontSize": "Large",
-          "headerAlignment": "center"
-        },
-        "cardLayout": {
-          "__resolveType": "Product Card Layout - 01"
-        }
+        "title": "Best Sellers"
       },
       {
         "__resolveType": "site/sections/Content/BlogPosts.tsx",
