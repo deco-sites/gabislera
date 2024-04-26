@@ -3471,12 +3471,16 @@
         "__resolveType": "Header - 01"
       },
       {
-        "page": {
-          "__resolveType": "PDP Loader"
-        },
-        "__resolveType": "site/sections/Product/ProductDetails.tsx"
+        "__resolveType": "Benefits - 01"
       },
       {
+        "__resolveType": "site/sections/Product/ProductDetails.tsx",
+        "page": {
+          "__resolveType": "PDP Loader"
+        }
+      },
+      {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "You may also like",
         "products": {
           "slug": {
@@ -3485,8 +3489,7 @@
           },
           "crossSelling": "whosawalsosaw",
           "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts"
-        },
-        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+        }
       },
       {
         "__resolveType": "Footer - 01"
