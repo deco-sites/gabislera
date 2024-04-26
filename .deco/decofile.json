@@ -29,7 +29,7 @@
     "title": "Take a look at our benefits",
     "benefits": [
       {
-        "icon": "Truck",
+        "icon": "ChevronLeft",
         "label": "Free Shipping Worldwide",
         "description": "Shop online with no additional fees!"
       },
@@ -49,7 +49,12 @@
         "description": "Easy and Convenient Return Policy"
       }
     ],
-    "__resolveType": "site/sections/Content/Benefits.tsx"
+    "__resolveType": "site/sections/Content/Benefits.tsx",
+    "description": "Check out the benefits",
+    "layout": {
+      "variation": "Simple",
+      "headerAlignment": "center"
+    }
   },
   "Benefits - 02": {
     "title": "Take a look at our benefits ",
@@ -2120,6 +2125,9 @@
       }
     ],
     "__resolveType": "commerce/loaders/product/extensions/listingPage.ts"
+  },
+  "Preview /sections/Images/Carousel.tsx": {
+    "__resolveType": "site\\sections\\Images\\Carousel.tsx"
   },
   "Product Card Layout - 01": {
     "layout": {
